@@ -20,7 +20,7 @@ const Register = () => {
 
     const createUser = (e) => {
         e.preventDefault()
-        Axios.post('http://localhost:3002/register', {
+        Axios.post('https://facef-bvb-champions.onrender.com', {
             Email: email,
             UserName: userName,
             Password: password
